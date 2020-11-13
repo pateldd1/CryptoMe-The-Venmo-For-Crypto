@@ -40,6 +40,7 @@ The only thing you must keep secure is your secret key, which is used to make tr
 
 # Mp4 Videos:
 * In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
+  ![vid](Pics_6.5/sendRipple_submit.gif)
 
 # Why I did not release this production-ready app:
 
