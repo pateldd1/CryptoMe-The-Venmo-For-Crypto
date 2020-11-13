@@ -49,4 +49,4 @@ If you have any ideas about how I can submit this app to the app store and foreg
 
 ### Copyright notice:
 
-© 2020 CryptoMe
+© 2020 CryptoMe Inc.
