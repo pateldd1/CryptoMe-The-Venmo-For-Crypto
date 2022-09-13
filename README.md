@@ -45,7 +45,6 @@ The only thing you must keep secure is your secret key, which is used to make tr
   <img src="/Pics_6.5/deposit.gif" width="400px" height="700px" />
   <img src="/Pics_6.5/sendAddress_submit.mp4" width="400px" height="700px" />
   <img src="/Pics_6.5/sendAddress.mp4" width="400px" height="700px" />
-  <img src="/Pics_6.5/sendRipple_submit.mp4" width="400px" height="700px" />
 
 ### Copyright notice:
 
