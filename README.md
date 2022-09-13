@@ -42,16 +42,8 @@ The only thing you must keep secure is your secret key, which is used to make tr
 * In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
   
   <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
-  <img src="/Pics_6.5/deposit_submit.gif" width="400px" height="700px" />
   <img src="/Pics_6.5/deposit.gif" width="400px" height="700px" />
-  <img src="/Pics_6.5/sendAddress_submit.gif" width="400px" height="700px" />
   <img src="/Pics_6.5/sendAddress.gif" width="400px" height="700px" />
-# Why I did not release this production-ready app:
-
-The USA makes me have to declare this app as a Money Service Business because it involves sending a receiving currency and currency conversion. This means I would have to collect every users' licence picture and face picture. There are several apps on the app store that do similar things as this app but their companies are not based in the USA. The CryptoMe company that I created is a US business and has to go through rigorous rules. I started this app in 2017 when there were very few apps that did this, but that is when I started looking for a job.
-
-If you have any ideas about how I can submit this app to the app store and forego this brick wall I face, please feel free to email me at devanshpatel22@gmail.com or cryptomeweb@gmail.com. It's a fully functional application that I believe could have a user base if not for US regulations.
-
 ### Copyright notice:
 
 © 2020 CryptoMe Inc.
