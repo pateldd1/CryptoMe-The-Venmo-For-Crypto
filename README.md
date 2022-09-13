@@ -42,8 +42,7 @@ The only thing you must keep secure is your secret key, which is used to make tr
 * In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
   
   <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
-  <img src="/Pics_6.5/deposit_submit.mp4" width="400px" height="700px" />
-  <img src="/Pics_6.5/deposit.mp4" width="400px" height="700px" />
+  <img src="/Pics_6.5/deposit.gif" width="400px" height="700px" />
   <img src="/Pics_6.5/sendAddress_submit.mp4" width="400px" height="700px" />
   <img src="/Pics_6.5/sendAddress.mp4" width="400px" height="700px" />
   <img src="/Pics_6.5/sendRipple_submit.mp4" width="400px" height="700px" />
