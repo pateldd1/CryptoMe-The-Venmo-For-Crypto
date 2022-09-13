@@ -16,7 +16,7 @@ CryptoMe is Venmo for cryptocurrency. For a long time, cryptocurrency has been c
 The difference between CryptoMe and other "wallets" like Kraken and Crypto is that CryptoMe gives you access to your own wallet whereas those companies just put your money into their system, kind of like a bank. This is counterintuitive to the whole idea of cryptocurrency, which is decentralization as these “exchange wallets” are centralized to one of these companies. They say you have a wallet but they don't give you the secret key for your wallet, meaning you can't import that address to other sites or use that wallet without their application. You totally rely on their application to keep your money safe and to buy/sell/transfer money. In addition, hackers specifically target these large exchanges more than personal wallets, making your money much less secure. Robbers target banks much more than they target personal safes. CryptoMe puts the money in your own hands and gives you a secret key that is stored encrypted on your device and not with us. Recently, Ripple has introduced the Community Reach Support and Incentive Initiative to give XRP dividends to ripple holders, but only if they have a personal wallet as explained above, not an exchange wallet. Venmo uses a similar centralized structure. The money you have in Venmo belongs to Venmo in the larger scheme of things and bank transfers take days for you to actually possess your money. On top of that, Venmo is only usable in the USA whereas CryptoMe is global. In CryptoMe, you have your money right away, verified by millions of servers worldwide and the blockchain.
 
 ### Mode of transfer:
-Currently the mode of transfer between users is XRP, or ripple. Ripple has one of the fastest transfer rates among all types of cryptocurrency. Transfers happen in a matter of seconds. It is also one of the most stable cryptocurrencies. It is a type of crypto that Banks rely on. No need to wait for bank clearances and slow processes, such as in Venmo. In the future, the app will allow other P2P crypto transfers including Bitcoin, Ethereum, etc.
+Currently the mode of transfer between users is XRP, or ripple. Ripple has one of the fastest transfer rates among all types of cryptocurrency. Transfers happen in a matter of seconds. It is a type of crypto that Banks rely on. No need to wait for bank clearances and slow processes, such as in Venmo. In the future, the app will allow other P2P crypto transfers including Bitcoin, Ethereum, etc.
 
 No collection of your Private Data:
 CryptoMe does not collect private data, such as your driver's license or any identifying data because all transfers are with non-FIAT currency.
@@ -42,12 +42,11 @@ The only thing you must keep secure is your secret key, which is used to make tr
 * In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
   
   <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
-
-# Why I did not release this production-ready app:
-
-The USA makes me have to declare this app as a Money Service Business because it involves sending a receiving currency and currency conversion. This means I would have to collect every users' licence picture and face picture. There are several apps on the app store that do similar things as this app but their companies are not based in the USA. The CryptoMe company that I created is a US business and has to go through rigorous rules. I started this app in 2017 when there were very few apps that did this, but that is when I started looking for a job.
-
-If you have any ideas about how I can submit this app to the app store and forego this brick wall I face, please feel free to email me at devanshpatel22@gmail.com or cryptomeweb@gmail.com. It's a fully functional application that I believe could have a user base if not for US regulations.
+  <img src="/Pics_6.5/deposit_submit.mp4" width="400px" height="700px" />
+  <img src="/Pics_6.5/deposit.mp4" width="400px" height="700px" />
+  <img src="/Pics_6.5/sendAddress_submit.mp4" width="400px" height="700px" />
+  <img src="/Pics_6.5/sendAddress.mp4" width="400px" height="700px" />
+  <img src="/Pics_6.5/sendRipple_submit.mp4" width="400px" height="700px" />
 
 ### Copyright notice:
 
