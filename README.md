@@ -38,12 +38,13 @@ The only thing you must keep secure is your secret key, which is used to make tr
 - Conversion of FIAT currency like dollars into cryptocurrency
 - Login through facebook and social login
 
-# Mp4 Videos:
+# Gifs:
 * In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
-  
-  <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
-  <img src="/Pics_6.5/deposit.gif" width="400px" height="700px" />
-  <img src="/Pics_6.5/sendAddress.gif" width="400px" height="700px" />
+  <div>
+    <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
+    <img src="/Pics_6.5/deposit_submit.gif" width="400px" height="700px" />
+    <img src="/Pics_6.5/sendAddress_submit.gif" width="400px" height="700px" />
+  </div>
 ### Copyright notice:
 
 © 2020 CryptoMe Inc.
