@@ -6,7 +6,7 @@
 
 # App Screens:
 
-<img src="/Pics_6.5/screen1.png" width="400px" height="700px" /><img src="/Pics_6.5/screen2.png" width="400px" height="700px" /><img src="/Pics_6.5/screen3.png" width="400px" height="700px" /><img src="/Pics_6.5/screen4.png" width="400px" height="700px" /><img src="/Pics_6.5/screen5.png" width="400px" height="700px" /><img src="/Pics_6.5/screen6.png" width="400px" height="700px" /><img src="/Pics_6.5/screen7.png" width="400px" height="700px" /><img src="/Pics_6.5/screen8.png" width="400px" height="700px" /><img src="/Pics_6.5/screen9.png" width="400px" height="700px" /><img src="/Pics_6.5/screen10.png" width="400px" height="700px" />
+<img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_1.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_2.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_3.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_4.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_5.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_6.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_7.png" width="400px" height="700px" /><img src="/Pics_6.5/screen8.png" width="400px" height="700px" /><img src="/Pics_6.5/screen9.png" width="400px" height="700px" /><img src="/Pics_6.5/screen10.png" width="400px" height="700px" />
 
 # Gifs:
 * In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
