@@ -8,6 +8,14 @@
 
 <img src="/Pics_6.5/screen1.png" width="400px" height="700px" /><img src="/Pics_6.5/screen2.png" width="400px" height="700px" /><img src="/Pics_6.5/screen3.png" width="400px" height="700px" /><img src="/Pics_6.5/screen4.png" width="400px" height="700px" /><img src="/Pics_6.5/screen5.png" width="400px" height="700px" /><img src="/Pics_6.5/screen6.png" width="400px" height="700px" /><img src="/Pics_6.5/screen7.png" width="400px" height="700px" /><img src="/Pics_6.5/screen8.png" width="400px" height="700px" /><img src="/Pics_6.5/screen9.png" width="400px" height="700px" /><img src="/Pics_6.5/screen10.png" width="400px" height="700px" />
 
+# Gifs:
+* In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
+  <div>
+    <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
+    <img src="/Pics_6.5/deposit.gif" width="400px" height="700px" />
+    <img src="/Pics_6.5/sendAddress.gif" width="400px" height="700px" />
+  </div>
+
 # iOS App Store Connect Summary:
 
 CryptoMe is Venmo for cryptocurrency. For a long time, cryptocurrency has been considered a shady exchange of money between large complex addresses. Why does it have to be that way? CryptoMe attempts to personalize transactions, allowing users to send and receive cryptocurrency with each other and write a description for their transactions.
@@ -38,13 +46,6 @@ The only thing you must keep secure is your secret key, which is used to make tr
 - Conversion of FIAT currency like dollars into cryptocurrency
 - Login through facebook and social login
 
-# Gifs:
-* In https://github.com/pateldd1/Cryptome/tree/master/Pics_6.5
-  <div>
-    <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
-    <img src="/Pics_6.5/deposit.gif" width="400px" height="700px" />
-    <img src="/Pics_6.5/sendAddress.gif" width="400px" height="700px" />
-  </div>
 ### Copyright notice:
 
 © 2020 CryptoMe Inc.
