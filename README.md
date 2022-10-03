@@ -11,7 +11,7 @@
 # Gifs:
 * In https://github.com/pateldd1/Cryptome/tree/master/Pics_5.5
   <div>
-    <img src="/Pics_5.5/sendRipple_submit.gif" width="400px" height="700px" />
+    <img src="/Pics_6.5/sendRipple_submit.gif" width="400px" height="700px" />
     <img src="/Pics_5.5/deposit_submit.gif" width="400px" height="700px" />
     <img src="/Pics_5.5/sendAddress_submit.gif" width="400px" height="700px" />
   </div>
