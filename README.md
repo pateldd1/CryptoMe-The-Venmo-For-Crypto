@@ -50,6 +50,14 @@ The only thing you must keep secure is your secret key, which is used to make tr
 - Send to your friends using their phone number
 - Conversion of FIAT currency like dollars into cryptocurrency
 - Login through facebook and social login
+- Lending to friends without collateral and the creation of social credit scores on blockchain.
+- DEX
+- DAO
+- CryptoMe's very own cryptocurrency
+- Metaverse
+- Turning the backend into an API businesses can use to send each other crypto easily
+- Onboarding businesses onto CryptoMe to allow payments for services.
+- Investment and release to iOS store and Google Play store.
 
 ### Copyright notice:
 
