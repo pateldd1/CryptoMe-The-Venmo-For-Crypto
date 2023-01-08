@@ -16,7 +16,7 @@
 
 # Summary:
 
-CryptoMe is Venmo for cryptocurrency. For a long time, cryptocurrency has been considered a shady exchange of money between large complex addresses. Why does it have to be that way? Nowadays, millions of people are getting into crypto and ease-of-use/social payments will become more and more valuable. CryptoMe attempts to personalize transactions, allowing users to send and receive cryptocurrency with each other and write a description for their transaction. Think Trust Wallet meets Venmo. CryptoMe want to make cryptocurrency payments P2P, P2B, and B2B as easy as possible by extracting away every point of failure, like large cryptocurrency addresses users must input, and letting the backend (our side) handle it. 
+CryptoMe is Venmo for cryptocurrency. For a long time, cryptocurrency has been considered a shady exchange of money between large complex addresses. Why does it have to be that way? Nowadays, millions of people are getting into crypto and ease-of-use/social payments will become more and more valuable. CryptoMe attempts to personalize transactions, allowing users to send and receive cryptocurrency with each other and write a description for their transaction. Think Trust Wallet meets Venmo. CryptoMe wants to make cryptocurrency payments P2P, P2B, and B2B as easy as possible by extracting away every point of failure, like large cryptocurrency addresses users must input, and letting the backend (our side) handle it. 
 
 ### What's the difference?
 The difference between CryptoMe and cryptocurrency exchanges like FTX, Kraken, and Coinbase is that CryptoMe gives you access to your own wallet whereas those companies just put your money into their system, kind of like a bank (not a wallet). 
@@ -40,23 +40,24 @@ Convert between 200+ types of cryptocurrency, including Bitcoin, Ethereum, Litec
 You can also send to other ripple addresses or receive from ripple addresses if the person you're sending or receiving from is not on the CryptoMe platform, just like in any other wallet app. To increase user retention, instead of making these kinds of transfers, users will have to pay less in fees if the person they're trying to send money to is a part of the CryptoMe platform, so convince that person you're sending to to just be a part of the CryptoMe platform to avoid higher fees.
 
 ### Security:
-The only thing you must keep secure is your secret key, which is used to make transactions. This key is with you and not with CryptoMe. Sites such as Kraken can get hacked and you can lose all your money or those companies can shut down/run away with all your money. With CryptoMe, your full wallet ownership means you can import or export your wallet into any application (e.g. into Gatehub), only you have your secret key, and only you can send money with that wallet. A person would literally need access to your phone, CryptoMe DB, and your CryptoMe password (basically impossible) to decrypt the encrypted secret key on your phone. If they don't have access to your phone and somehow log in as you on CryptoMe on their phone, they still couldn't use your money because the encrypted secret key isn't on their phone. Any payment they try to make with your account they hacked into on their device would fail because they don't have the encrypted secret key stored on their phone. 
+The only thing you must keep secure is your secret key, which is used to make transactions. This key is with you and not with CryptoMe. Sites such as Kraken can get hacked and you can lose all your money or those companies can shut down/run away with all your money. With CryptoMe, your full wallet ownership means you can import or export your wallet into any application (e.g. into Gatehub), only you have your secret key, and only you can send money with that wallet. A person would literally need access to your phone, CryptoMe DB, and your CryptoMe password (impossible) to decrypt the encrypted secret key on your phone. If they don't have access to your phone and somehow log in as you on CryptoMe on their phone, they still couldn't use your money because the encrypted secret key isn't on their phone. Any payment they try to make with your account they hacked into on their device would fail because they don't have the encrypted secret key stored on their phone. 
 
 ### The future of CryptoMe:
-
+- Investment and release to iOS store and Google Play store.
 - Having your own Bitcoin, Ethereum, Litecoin, DOGE, SHIB, ALGO, XLM, etc. wallet
 - Sending Bitcoin, Ethereum, Litecoin to your friends
-- Send to your friends using their phone number
+- Send to your friends using their phone number (questionable because that removes anonymity so not sure)
 - Conversion of FIAT currency like dollars into cryptocurrency
-- Login through facebook and social login
+- Visa credit card payments with USDC (crypto.com does this)
+- Login through facebook and social login (also reduces anonymity so not sure)
 - Lending to friends without collateral and the creation of social credit scores on blockchain.
 - DEX
 - DAO
 - CryptoMe's very own cryptocurrency
 - Metaverse
-- Turning the backend into an API businesses can use to send each other crypto easily
+- Turning the backend into an API businesses can use to send each other crypto easily and quickly, kind of like Ripple Company's ODL solution.
 - Onboarding businesses onto CryptoMe to allow payments for services.
-- Investment and release to iOS store and Google Play store.
+- Hiring a cryptocurrency Lawyer to make sure we're in compliance with KYC/AML
 
 ### Copyright notice:
 
