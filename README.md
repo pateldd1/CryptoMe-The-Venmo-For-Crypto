@@ -1,4 +1,4 @@
-### Youtube Demo Page Link: 
+### Youtube Demo Link (Click Picture Below): 
 [![See a video](./thumbnail_best.png)](https://www.youtube.com/watch?v=kgnb0WTIWOc&t=6s&ab_channel=CryptoMe%2CInc.)
 
 ### Help Page: 
@@ -7,13 +7,6 @@ https://cryptomehelp.s3.amazonaws.com/index.html
 # App Screens:
 
 <img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_1.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_2.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_3.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_4.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_5.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_6.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_7.png" width="400px" height="700px" /><img src="/6.5‑inch(iPhone-Xs-Max)/screenshot_2.png" width="400px" height="700px" /><img src="/6.5‑inch(iPhone-Xs-Max)/screenshot_3.png" width="400px" height="700px" /><img src="/6.5‑inch(iPhone-Xs-Max)/screenshot_8.png" width="400px" height="700px" />
-
-# Gifs:
-* In https://github.com/pateldd1/Cryptome/tree/master/Pics_5.5
-  <div>
-    <img src="/Pics_6.5/sendRipple_submit.gif" width="450px" height="700px" />
-    <img src="/Pics_5.5/sendAddress_submit.gif" width="450px" height="700px" />
-  </div>
 
 ### Summary:
 CryptoMe is Venmo for cryptocurrency. For a long time, cryptocurrency has been considered a shady exchange of money between large complex addresses. Why does it have to be that way? Nowadays, millions of people are getting into crypto and ease-of-use/social payments will become more and more valuable. CryptoMe attempts to personalize transactions, allowing users to send and receive cryptocurrency with each other and write a description for their transaction. Think Trust Wallet meets Venmo. CryptoMe wants to make cryptocurrency payments P2P, P2B, and B2B as easy as possible by extracting away every point of failure, like large cryptocurrency addresses users must input, and letting the backend (our side) handle it.
