@@ -1,7 +1,7 @@
-### Youtube Demo Link (Click Picture Below): 
+# Youtube Demo Link (Click Thumbnail Below): 
 [![See a video](./thumbnail_best.png)](https://www.youtube.com/watch?v=kgnb0WTIWOc&t=6s&ab_channel=CryptoMe%2CInc.)
 
-### Help Page: 
+## Help Page: 
 https://cryptomehelp.s3.amazonaws.com/index.html
 
 # App Screens:
