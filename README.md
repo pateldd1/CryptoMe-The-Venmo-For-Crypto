@@ -1,3 +1,5 @@
+# TestFlight App test link
+https://testflight.apple.com/join/AI14aSNY
 # Youtube Demo Link (Click Thumbnail Below): 
 [![See a video](./thumbnail_best.png)](https://www.youtube.com/watch?v=kgnb0WTIWOc&t=6s&ab_channel=CryptoMe%2CInc.)
 
