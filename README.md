@@ -1,13 +1,13 @@
 # Approved iOS App Demo Link
-https://testflight.apple.com/join/AI14aSNY
+https://testflight.apple.com/join/8evpijlf
 
 
 ## Help Page: 
-https://cryptomehelp.s3.amazonaws.com/index.html
+https://www.justcryptome.com
 
 # App Screens:
 
-<img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_1.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_2.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_3.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_4.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_5.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_6.png" width="400px" height="700px" /><img src="/Pics_5.5/5.5-inch(iPhone-6-Plus)/screenshot_7.png" width="400px" height="700px" /><img src="/6.5‑inch(iPhone-Xs-Max)/screenshot_2.png" width="400px" height="700px" /><img src="/6.5‑inch(iPhone-Xs-Max)/screenshot_3.png" width="400px" height="700px" /><img src="/6.5‑inch(iPhone-Xs-Max)/screenshot_8.png" width="400px" height="700px" />
+<img src="/New_Pics/login_1.png" width="430px" height="932px" /><img src="/New_Pics/view_transactions_1.png" width="430px" height="932px" /><img src="/New_Pics/search_1.png" width="430px" height="932px" /><img src="/New_Pics/send_to_user_1.png" width="430px" height="932px" /><img src="/New_Pics/send_to_address_1.png" width="430px" height="932px" /><img src="/New_Pics/wallet_1.png" width="430px" height="932px" /><img src="/New_Pics/transactions_between_users_1.png" width="430px" height="932px" />
 
 # Youtube Demo Link (Click Thumbnail Below): 
 [![See a video](./thumbnail_best.png)](https://www.youtube.com/watch?v=kgnb0WTIWOc&t=6s&ab_channel=CryptoMe%2CInc.)
