@@ -1,5 +1,5 @@
-# Approved iOS App Demo Link
-https://testflight.apple.com/join/8evpijlf
+# iOS Application
+CryptoMe is on the iOS app store.
 
 
 ## Help Page: 
