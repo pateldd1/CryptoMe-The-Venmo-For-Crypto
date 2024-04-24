@@ -1,5 +1,9 @@
 # iOS Application
-CryptoMe is on the iOS app store.
+## Download CryptoMe
+
+[![Download CryptoMe](./Cryptome_ios_icons/GooglePlayStore.png)](https://apps.apple.com/us/app/cryptome/id1514994918)
+
+Click the link above to get the latest version of CryptoMe from the iOS App Store!
 
 
 ## Help Page: 
