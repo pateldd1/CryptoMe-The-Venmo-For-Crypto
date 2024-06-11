@@ -8,167 +8,356 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-Q4Y14BP5EZ');
   </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="CryptoMe - A Venmo-like XRP payment platform. Learn how to deposit, send, and manage XRP and other cryptocurrencies with our easy-to-use app.">
+  <meta name="keywords"
+    content="CryptoMe, XRP, cryptocurrency, wallet, crypto transactions, send XRP, receive XRP, Changelly exchange, crypto wallet">
+  <meta name="author" content="CryptoMe Team">
   <title>CryptoMe Help Page</title>
   <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      /* Uses Arial font for a modern look */
-      background-color: #f4f4f9;
-      /* Soft gray background */
-      color: #333;
-      /* Dark gray text for readability */
-      padding: 20px;
-      /* Adds padding around the content */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
+      background-color: #121212;
+      color: #e0e0e0;
     }
-  
-    h1,
-    h2,
-    h3 {
-      color: #0056b3;
-      /* Blue color for headings to stand out */
-    }
-  
+
     .content-section {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       margin-top: 20px;
     }
-  
-    .text-section {
-      text-align: left;
-      margin-left: 20px;
-      max-width: 50%;
-      /* Limits the text width to 50% */
-    }
-  
+
     img {
       border-radius: 8px;
-      /* Rounds the corners of the images */
-      width: 345px;
-      /* Standard width for all images */
-      height: 558px;
-      /* Standard height for all images */
+      max-width: 100%;
+      height: auto;
     }
-  
+
     .support-section {
       margin-top: 50px;
-      /* Adds space before the support section */
-      background-color: #e1e1e1;
-      /* Light gray background for the section */
+      background-color: #333;
       padding: 20px;
-      width: 100%;
-    }
-  
-    form {
-      text-align: left;
-      /* Aligns the form text to the left */
-    }
-  
-    input,
-    textarea,
-    button {
-      width: 90%;
-      padding: 10px;
-      margin-top: 10px;
-      /* Spacing between form elements */
-    }
-  
-    button {
-      background-color: #0056b3;
-      color: white;
-      border: none;
-      cursor: pointer;
+      color: #e0e0e0;
     }
 
     .download-button {
-        display: inline-block;
-        background-color: #0070c9; /* Blue color to match App Store theme */
-        color: white; /* White text color for contrast */
-        padding: 10px 20px; /* Padding around the text */
-        border-radius: 5px; /* Rounded corners for a modern look */
-        text-decoration: none; /* No underline */
-        font-size: 16px; /* Larger font size for better readability */
-        font-weight: bold; /* Bold font for emphasis */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
-        transition: background-color 0.3s; /* Smooth transition for hover effect */
+      display: inline-block;
+      background-color: #0070c9;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s;
     }
 
     .download-button:hover {
-        background-color: #005ba1; /* Slightly darker blue on hover */
+      background-color: #005ba1;
+    }
+
+    .img-small {
+      width: 100%;
+      max-width: 200px;
+      margin: 10px;
+    }
+
+    /* Additional CSS for mobile optimization */
+    @media (max-width: 768px) {
+      .img-small {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        max-width: 200px;
+      }
+
+      .content-section {
+        text-align: center;
+      }
+
+      .social-links img {
+        margin: 10px;
+      }
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #e0e0e0;
+    }
+
+    .navbar-dark .navbar-brand {
+      color: #e0e0e0;
     }
   </style>
 </head>
 
 <body>
-  <a href="https://apps.apple.com/us/app/cryptome/id1514994918" class="download-button">Download CryptoMe in the iOS Store</a>
-  <h1 id="cryptome-help-page">CryptoMe</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">CryptoMe</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#cryptome-help-page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#youtube-demo">Demo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#support-section">Support</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
+  <div class="container mt-5">
+    <a href="https://apps.apple.com/us/app/cryptome/id1514994918" class="download-button mb-3">&#xF8FF; Download on the
+      App Store</a>
+    <h1 id="cryptome-help-page">CryptoMe Help Page</h1>
 
-  <h2 id="depositing-xrp-into-your-cryptome-wallet">Depositing XRP into your CryptoMe wallet</h2>
-  <h3 id="1-create-or-import-an-xrp-wallet">1. Create or import an XRP wallet</h3>
-  <p>
-    <img src="./images/create_or_import_1.png" alt="Create or import wallet" style="width: 430px; height: 932px;">
-    <img src="./images/wallet_1.png" alt="Wallet" style="width: 430px; height: 932px;">
-  </p>
-  <ul>
-    <li>You can create a wallet or import one. To import one, you must have the secret key of the wallet you're trying
-      to import. Don't worry, we don't store your secret key on our side. It's only on your device.</li>
-    <li>To deposit XRP into CryptoMe from another XRP wallet like from Coinbase, simply send it to your XRP wallet in CryptoMe.</li>
-  </ul>
+    <div class="content-section">
+      <h2>Depositing XRP into your CryptoMe wallet</h2>
+      <h3>Create or import an XRP wallet to deposit XRP directly</h3>
+      <div class="row">
+        <div class="col-md-2 col-12">
+          <img src="./images/wallet/create_or_import_1.png" alt="Create or import wallet" class="img-small">
+        </div>
+        <div class="col-md-2 col-12">
+          <img src="./images/wallet/wallet_secret_1.png" alt="Wallet Secret Key" class="img-small">
+        </div>
+        <div class="col-md-2 col-12">
+          <img src="./images/wallet/wallet_1.png" alt="Wallet" class="img-small">
+        </div>
+        <div class="col-md-2 col-12">
+          <img src="./images/wallet/wallet_address_1.png" alt="Wallet Address" class="img-small">
+        </div>
+        <div class="col-md-2 col-12">
+          <img src="./images/wallet/remove_wallet_1.png" alt="Wallet" class="img-small">
+        </div>
+      </div>
+      <ol class="mt-3">
+        <li>Press to create or import a wallet. Importing a wallet requires your XRP secret key.</li>
+        <li>Your secret key is copied to the clipboard. PASTE THIS IN NOTES OR WRITE IT DOWN. This is how to regain
+          access to your wallet or import your wallet into any other XRP Wallet app.</li>
+        <li>This is your QR code for depositing XRP.</li>
+        <li>After pressing clipboard button, your XRP address is copied. Go to Coinbase or wherever you own XRP and
+          deposit to this address. XRP wallets require 10 XRP minimum to activate. You must maintain 10 XRP in your
+          wallet.</li>
+        <li>After pressing the settings button, you'll see the options for removing your wallet or seeing your secret
+          key. Press the small QR button to return to the QR page.</li>
+      </ol>
+      <h3>Depositing other Cryptos as XRP into your CryptoMe Wallet</h3>
+      <div class="row">
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/coins.PNG" alt="coins" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/receive_from_atom.PNG" alt="Receive from Atom" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/coinbase_atom.PNG" alt="Coinbase Atom" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/coinbase_atom_receiving_addy.PNG" alt="Coinbase Atom Receiving Address"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/deposit_atom_as_xrp.PNG" alt="Deposit Atom as XRP" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/changelly_send_to.PNG" alt="Changelly Send To" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/send_atom_from_coinbase.PNG" alt="Send Atom from Coinbase"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/send_atom_from_coinbase_2.PNG" alt="Send Atom from Coinbase 2"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/view_conversions.PNG" alt="View Conversions" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/view_conversion_detail.PNG" alt="View Conversion Detail"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/received_xrp_from_atom.PNG" alt="Received XRP from ATOM"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_deposit/finished_xrp_from_atom.PNG" alt="Finished XRP from ATOM"
+            class="img-small">
+        </div>
+      </div>
+      <ol class="mt-3">
+        <li>Press the coin's bank button to select the coin you want to deposit as XRP.</ <li>Press the coin's bank
+          button to select the coin you want to deposit as XRP.</li>
+        <li>Receiving from Atom address and memo in case Changelly Deposit fails. It will get refunded back to this
+          address and memo.</li>
+        <li>Go to Coinbase or wherever you own Atom and deposit to this address.</li>
+        <li>Copy the deposit address and memo. This is the Changelly return address in case Changelly fails.</li>
+        <li>Fill in the address and memo in CryptoMe. Must send more than the minimum required. I would suggest sending
+          10% more than the minimum to avoid any minimum send errors.</li>
+        <li>The app will show you a Changelly deposit Atom address and memo which will be filled out in Coinbase.</li>
+        <li>Send the Atom from Coinbase to the Changelly deposit address and memo.</li>
+        <li>Keep track of your transaction in Coinbase.</li>
+        <li>After the transaction is complete, you'll see the conversion in CryptoMe.</li>
+        <li>Press the conversion you're interested in. Here we see the status as waiting.</li>
+        <li>After the conversion is complete, you'll see the XRP in your wallet.</li>
+        <li>Press the conversion again and you should see the status as finished.</li>
+      </ol>
+    </div>
 
-  <h2 id="sending">Send XRP to user</h2>
-  <h3 id="sending-xrp-or-equivalent-to-another-user">Sending XRP or equivalent USD to another user</h3>
-  <p>
-    <img src="./images/search_1.png" alt="Search user" style="width: 430px; height: 932px;">
-    <img src="./images/send_to_user_1.png" alt="Send to User" style="width: 430px; height: 932px;">
-  </p>
-  <ul>
-    <li>In this case $10 or 48.86 XRP would be sent to the other user's XRP address and account.</li>
-  </ul>
+    <div class="content-section">
+      <h2>Send XRP to user</h2>
+      <h3>Sending XRP or equivalent USD to another user</h3>
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <img src="./images/send_to_user/search_1.png" alt="Search user" class="img-small">
+        </div>
+        <div class="col-md-4 col-12">
+          <img src="./images/send_to_user/send_to_user_1.png" alt="Send to User" class="img-small">
+        </div>
+        <div class="col-md-4 col-12">
+          <img src="./images/send_to_user/transactions_between_users_1.png" alt="Transactions between users"
+            class="img-small">
+        </div>
+      </div>
+      <ol class="mt-3">
+        <li>Search for a user by their screen name.</li>
+        <li>After you've searched a user, you can send them XRP or USD equivalent. Input a description for your
+          transaction.</li>
+        <li>After you've searched a user, you can view all the transactions you've made with them after pressing the
+          transactions button.</li>
+      </ol>
+    </div>
 
-  <h2 id="sending-xrp">Send to XRP Address</h2>
-  <h3 id="sending-xrp-or-equivalent-to-another-address">Sending XRP or equivalent USD to another XRP address</h3>
-  <p>
-    <img src="./images/send_to_address_1.png" alt="Send to Address" style="width: 430px; height: 932px;">
-  </p>
-  <ul>
-    <li>In this case $10 or 48.86 XRP would be sent to another XRP address.</li>
-  </ul>
+    <div class="content-section">
+      <h2>Send to XRP Address</h2>
+      <h3>Sending XRP or equivalent USD to another XRP address</h3>
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <img src="./images/send_xrp/send_xrp.jpg" alt="Send to Address" class="img-small">
+        </div>
+        <div class="col-md-6 col-12">
+          <img src="./images/send_xrp/send_to_address_1.png" alt="Send to Address" class="img-small">
+        </div>
+      </div>
+      <ol class="mt-3">
+        <li>Select the paper plane icon next to XRP.</li>
+        <li>Input the XRP address and destination tag (if required) you want to send to. Input the amount in XRP and
+          equivalent USD. Then press the pay button to pay.</li>
+      </ol>
+    </div>
 
-  <h2 id="viewing-transactions">Viewing Transactions</h2>
-  <p>
-    <img src="./images/view_transactions_1.png" alt="View transactions" style="width: 430px; height: 932px;">
-    <img src="./images/transactions_between_users_1.png" alt="Transactions between users"
-      style="width: 430px; height: 932px;">
-  </p>
-  <ul>
-    <li>View transactions you've made with another person</li>
-  </ul>
-  <h2 id="youtube-demo">Youtube Demo</h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/rL6JodeCfMw?si=qBZJ5eNmkdk7hVRM"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <div class="support-section">
-    <h2>Contact Support</h2>
-    <p>If you have any questions or need assistance, please contact us:</p>
-    <p><strong>Email:</strong> <a href="mailto:support@justcryptome.com">support@justcryptome.com</a></p>
-    <p><strong>Address:</strong> 139 Black Thorn Drive, Jonesborough, TN 37659</p>
-    <a href="https://apps.apple.com/us/app/cryptome/id1514994918" class="download-button">Download CryptoMe in the iOS
-      Store</a>
+    <div class="content-section">
+      <h2>Send XRP to 80+ other coins</h2>
+      <div class="row">
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/search_solana.PNG" alt="Send to Address" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/phantom_wallet.PNG" alt="Phantom Wallet" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/phantom_wallet_address.PNG" alt="Phantom Wallet Address" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/input_sol_address_cryptome.PNG" alt="Input Sol Address" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/convert_page.PNG" alt="Convert Page" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/payment_sent_for_conversion.PNG" alt="Payment Sent For Conversion"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/view_conversions_cryptome.PNG" alt="View Conversions CryptoMe"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/view_conversion_status.PNG" alt="View Conversion Status" class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/money_deposited_to_phantom.PNG" alt="Money deposited to phantom"
+            class="img-small">
+        </div>
+        <div class="col-md-3 col-12">
+          <img src="./images/changelly_send/phantom_see_transaction.PNG" alt="Phantom See Transaction"
+            class="img-small">
+        </div>
+      </div>
+      <ol class="mt-3">
+        <li>Search for the coin you want to convert to. Here we're converting to Solana.</li>
+        <li>Go to your Solana wallet. Here we're using Phantom Wallet.</li>
+        <li>Copy your Solana wallet address.</li>
+        <li>Input your Solana wallet address in CryptoMe.</li>
+        <li>After pressing convert, you'll see the conversion page.</li>
+        <li>After pressing pay, you'll see the payment sent for conversion.</li>
+        <li>After the conversion order is placed, you'll see the conversion order in CryptoMe.</li>
+        <li>Press the conversion order you're interested in. Here we see the status as confirming. Drag down to refresh
+          this page to keep track of the conversion.</li>
+        <li>After the conversion is complete, you'll see the SOL in your Phantom Wallet.</li>
+        <li>See the transaction in your Phantom Wallet.</li>
+      </ol>
+    </div>
+
+    <div class="content-section">
+      <h2>Viewing Transactions</h2>
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <img src="./images/view_transactions_1.png" alt="View transactions" class="img-small">
+        </div>
+      </div>
+      <ol class="mt-3">
+        <li>You can view all your transactions by pressing on the home tab.</li>
+      </ol>
+    </div>
+
+    <div class="support-section" id="support-section">
+      <h2>Contact Support</h2>
+      <p>If you have any questions or need assistance, please contact us:</p>
+      <p><strong>Email:</strong> <a href="mailto:support@justcryptome.com">support@justcryptome.com</a></p>
+      <a href="https://apps.apple.com/us/app/cryptome/id1514994918" class="download-button mb-3">&#xF8FF; Download on
+        the App Store</a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/company/cryptome1" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"
+            style="width:30px; height:30px;">
+        </a>
+        <a href="https://x.com/CryptoMeInc" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"
+            style="width:30px; height:30px;">
+        </a>
+        <a href="https://github.com/pateldd1/cryptome" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="GitHub"
+            style="width:30px; height:30px;">
+        </a>
+        <a href="https://www.youtube.com/channel/UCL9MBB-GZsVj1BlrLQBqydg" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"
+            style="width:30px; height:30px;">
+        </a>
+      </div>
+    </div>
   </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
